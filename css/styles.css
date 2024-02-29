@@ -116,8 +116,9 @@ ul {
 }
 /* Section 3 */
 .team {
-  background: #f4f4fd;
+  background-color: #FFFFFF;
 }
+
 .team-title {
   font-size: 36px;
   line-height: 1.11;
@@ -128,7 +129,8 @@ ul {
 }
 
 .team-list {
-  background-color: #FFFFFF}
+  background: #f4f4fd
+}
 
 .team-list-item {
 }
