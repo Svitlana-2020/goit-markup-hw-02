@@ -25,7 +25,9 @@ body {
 .navigation {
 }
 .navigation-list {
+
 }
+
 .navigation-item {
   font-weight: 500;
   font-size: 16px;
@@ -34,6 +36,12 @@ body {
   color: #2e2f42;
   text-decoration: none;
 }
+
+.navigation-item span:active {
+    color: #404bbf; 
+    text-decoration: underline;}
+
+.navigation-item:hover {color: #404bbf;}
 
 .details-item {
   font-weight: 400;
@@ -44,6 +52,10 @@ body {
   text-decoration: none;
 }
 
+.details-item:hover {
+    color: #404bbf;
+
+}
 .section-headline {
   background-color: #2e2f42;
 }
