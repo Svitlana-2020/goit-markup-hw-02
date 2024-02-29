@@ -1,24 +1,27 @@
 body {
   font-family: "Roboto", sans-serif;
-  color:#2e2f42;
+  color:#434455;
+  background-color: #FFFFFF;
 }
 
-.logo {
+.logo-header {
   font-family: "Raleway", sans-serif;
+  font-weight: 700;
   font-size: 18px;
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   text-decoration: none;
+  color:#4d5ae5;
 }
-.logo span {
+.logo-header span {
   font-family: "Raleway", sans-serif;
-  font-weight: 700
+  font-weight: 700;
     font-size: 18px;
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: #4d5ae5;
+  color: #2e2f42;
 }
 
 .navigation {
@@ -33,6 +36,7 @@ body {
   line-height: 1.5;
   letter-spacing: 0.02em;
   text-decoration: none;
+  color: #2e2f42;
 }
 
 .navigation-item span:active {
@@ -40,6 +44,11 @@ body {
     text-decoration: underline;}
 
 .navigation-item:hover {color: #404bbf;}
+.navigation-item:focus {color:#404bbf;}
+
+.address-details {
+    font-style: normal;
+}
 
 .details-item {
   font-size: 16px;
@@ -51,8 +60,12 @@ body {
 
 .details-item:hover {
     color: #404bbf;
-
 }
+
+.details-item:focus {
+    color: #404bbf;
+}
+
 .section-headline {
   background-color: #2e2f42;
 }
@@ -64,15 +77,17 @@ body {
   color: #fff;
 }
 .button {
+    background-color: #4d5ae5;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.04em;
   color: #fff;
-  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
-  background: #4d5ae5;
-  cursor: pointer
+  cursor: pointer;
 }
+
+.button:hover {background-color: #404BBF;}
+.button:focus {background-color: #404BBF;}
 
 .benefits {
 }
@@ -106,18 +121,14 @@ ul {
   line-height: 1.11;
   letter-spacing: 0.02em;
   text-align: center;
+
 }
 .team-list {
 }
+
 .team-list-item {
-  box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08),
-    0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
-  background: #fff;
-  border-radius: 0 0 4px 4px;
-  padding: 0px 0px 32px 0px;
-  width: 264px;
-  height: 380px;
 }
+
 .team-list-image {
 }
 .team-list-title {
@@ -126,8 +137,9 @@ ul {
   line-height: 1.2;
   letter-spacing: 0.02em;
   text-align: center;
-
+  text-transform: capitalize;
 }
+
 .team-list-text {
   font-size: 16px;
   line-height: 1.5;
@@ -143,6 +155,8 @@ ul {
   line-height: 1.11;
   letter-spacing: 0.02em;
   text-align: center;
+  text-transform: capitalize;
+  color:  #2e2f42;
 }
 .portfolio-list {
 }
@@ -155,6 +169,7 @@ ul {
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
+  color:#2e2f42;
 }
 .portfolio-list-text {
   font-size: 16px;
