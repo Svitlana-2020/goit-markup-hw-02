@@ -116,7 +116,7 @@ ul {
 }
 /* Section 3 */
 .team {
-  background-color: #FFFFFF;
+  background-color: #F4F4FD
 }
 
 .team-title {
@@ -129,10 +129,10 @@ ul {
 }
 
 .team-list {
-  background: #f4f4fd
 }
 
 .team-list-item {
+  background-color: #FFFFFF 
 }
 
 .team-list-image {
